@@ -1,0 +1,13 @@
+# Clonar el repositorio
+git clone https://github.com/TU-USUARIO/mi-app.git
+cd mi-app
+
+# Crear el archivo principal de la aplicación
+echo 'print("¡Hola, mundo!")' > app.py
+
+# Añadir el archivo al repositorio local y hacer commit
+git add app.py
+git commit -m "Inicializar el proyecto con archivo principal"
+
+# Enviar los cambios al repositorio remoto en GitHub
+git push origin main
